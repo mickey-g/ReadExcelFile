@@ -29,10 +29,10 @@ namespace ReadExcelFile
             xlWorkBook = xlApp.Workbooks.Open(@"C:\Test\test.xls", 0, true, 5, "", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
             xlWorkSheet = (Microsoft.Office.Interop.Excel.Worksheet)xlWorkBook.Worksheets.get_Item(1);
 
-            range = xlWorkSheet.UsedRange;
+            range2 = xlWorkSheet.UsedRange;
 
-            int rowCount = range.Rows.Count;
-            int colCount = range.Columns.Count;
+            int rowCount = range2.Rows.Count;
+            int colCount = range2.Columns.Count;
 
             List<employeeFile1> allEmp1 = new List<employeeFile1>();
 
@@ -78,7 +78,7 @@ namespace ReadExcelFile
             GC.Collect();
             GC.WaitForPendingFinalizers();
 
-            Marshal.ReleaseComObject(range);
+            Marshal.ReleaseComObject(range2);
             Marshal.ReleaseComObject(xlWorkSheet);
 
             //close and release
