@@ -67,12 +67,10 @@ namespace ReadExcelFile
 
 
 
-<<<<<<< HEAD
+
             //    allEmp1.Add(newEmp);
-=======
-                allEmp1.Add(newEmp)
->>>>>>> shorten_title
-            }
+
+            //}
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
