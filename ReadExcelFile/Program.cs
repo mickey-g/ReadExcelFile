@@ -69,7 +69,6 @@ namespace ReadExcelFile
 
 
             //    allEmp1.Add(newEmp);
-
             //}
 
             Application.EnableVisualStyles();
