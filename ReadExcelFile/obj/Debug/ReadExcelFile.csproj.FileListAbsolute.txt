@@ -8,3 +8,7 @@ c:\users\mikol\documents\visual studio 2015\Projects\ReadExcelFile\ReadExcelFile
 c:\users\mikol\documents\visual studio 2015\Projects\ReadExcelFile\ReadExcelFile\obj\Debug\ReadExcelFile.csproj.GenerateResource.Cache
 c:\users\mikol\documents\visual studio 2015\Projects\ReadExcelFile\ReadExcelFile\obj\Debug\ReadExcelFile.exe
 c:\users\mikol\documents\visual studio 2015\Projects\ReadExcelFile\ReadExcelFile\obj\Debug\ReadExcelFile.pdb
+C:\Users\mikol\Documents\ReadExcelFile\ReadExcelFile\bin\Debug\ReadExcelFile.exe.config
+C:\Users\mikol\Documents\ReadExcelFile\ReadExcelFile\obj\Debug\ReadExcelFile.csproj.ResolveComReference.cache
+C:\Users\mikol\Documents\ReadExcelFile\ReadExcelFile\obj\Debug\ReadExcelFile.exe
+C:\Users\mikol\Documents\ReadExcelFile\ReadExcelFile\obj\Debug\ReadExcelFile.pdb
