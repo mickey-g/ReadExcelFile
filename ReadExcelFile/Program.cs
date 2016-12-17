@@ -38,36 +38,36 @@ namespace ReadExcelFile
 
 
 
-            for (int i = 2; i <= rowCount; i++)
-            {
+            //for (int i = 2; i <= rowCount; i++)
+            //{
                 
 
-                System.Array MyValues = (System.Array)xlWorkSheet.get_Range("A" + i.ToString(), "Q" + i.ToString()).Cells.Value;
+            //    System.Array MyValues = (System.Array)xlWorkSheet.get_Range("A" + i.ToString(), "Q" + i.ToString()).Cells.Value;
 
-                //if (range.Cells[i, 1] != null && range.Cells[i, 1].Value2 != null)
-                employeeFile1 newEmp = new employeeFile1();
+            //    //if (range.Cells[i, 1] != null && range.Cells[i, 1].Value2 != null)
+            //    employeeFile1 newEmp = new employeeFile1();
 
-                newEmp.employeeSIN = MyValues.GetValue(1, 1) == null ? "" : MyValues.GetValue(1, 1).ToString();
-                newEmp.employeeLastName = MyValues.GetValue(1, 2) == null ? "" : MyValues.GetValue(1, 2).ToString();
-                newEmp.employeeFirstName = MyValues.GetValue(1, 3) == null ? "" : MyValues.GetValue(1, 3).ToString();
-                newEmp.employeeMiddleName = MyValues.GetValue(1, 4) == null ? "" : MyValues.GetValue(1, 4).ToString();
-                newEmp.employeeBirthday = MyValues.GetValue(1, 5) == null ? new DateTime(1900,01,01) : (DateTime)MyValues.GetValue(1, 5);
-                newEmp.employeeEIOccupation = MyValues.GetValue(1, 6) == null ? "" : MyValues.GetValue(1, 6).ToString();
-                newEmp.companyBranch = MyValues.GetValue(1, 7) == null ? "" : MyValues.GetValue(1, 7).ToString();
-                newEmp.companyBrachName = MyValues.GetValue(1, 8) == null ? "" : MyValues.GetValue(1, 8).ToString();
-                newEmp.companyDept = MyValues.GetValue(1, 9) == null ? "" : MyValues.GetValue(1, 9).ToString();
-                newEmp.companyDeptName = MyValues.GetValue(1, 10) == null ? "" : MyValues.GetValue(1, 10).ToString();
-                newEmp.employeeHireDate = MyValues.GetValue(1, 11) == null ? new DateTime(1900, 01, 01) : (DateTime)MyValues.GetValue(1, 11);
-                newEmp.companyCompany = MyValues.GetValue(1, 12) == null ? "" : MyValues.GetValue(1, 12).ToString();
-                newEmp.employeePayrollStatus = MyValues.GetValue(1, 13) == null ? "" : MyValues.GetValue(1, 13).ToString();
-                newEmp.employeePaymentType = MyValues.GetValue(1, 14) == null ? "" : MyValues.GetValue(1, 14).ToString();
-                newEmp.employeeRate = MyValues.GetValue(1, 15) == null ? 0 : Convert.ToDouble(MyValues.GetValue(1, 15).ToString());
-                newEmp.employeeSalaryPerPay = MyValues.GetValue(1, 16) == null ? 0 : (double)MyValues.GetValue(1, 16);
-                newEmp.employeeStandardHours = MyValues.GetValue(1, 17) == null ? 0 : (double)MyValues.GetValue(1, 17);
+            //    newEmp.employeeSIN = MyValues.GetValue(1, 1) == null ? "" : MyValues.GetValue(1, 1).ToString();
+            //    newEmp.employeeLastName = MyValues.GetValue(1, 2) == null ? "" : MyValues.GetValue(1, 2).ToString();
+            //    newEmp.employeeFirstName = MyValues.GetValue(1, 3) == null ? "" : MyValues.GetValue(1, 3).ToString();
+            //    newEmp.employeeMiddleName = MyValues.GetValue(1, 4) == null ? "" : MyValues.GetValue(1, 4).ToString();
+            //    newEmp.employeeBirthday = MyValues.GetValue(1, 5) == null ? new DateTime(1900,01,01) : (DateTime)MyValues.GetValue(1, 5);
+            //    newEmp.employeeEIOccupation = MyValues.GetValue(1, 6) == null ? "" : MyValues.GetValue(1, 6).ToString();
+            //    newEmp.companyBranch = MyValues.GetValue(1, 7) == null ? "" : MyValues.GetValue(1, 7).ToString();
+            //    newEmp.companyBrachName = MyValues.GetValue(1, 8) == null ? "" : MyValues.GetValue(1, 8).ToString();
+            //    newEmp.companyDept = MyValues.GetValue(1, 9) == null ? "" : MyValues.GetValue(1, 9).ToString();
+            //    newEmp.companyDeptName = MyValues.GetValue(1, 10) == null ? "" : MyValues.GetValue(1, 10).ToString();
+            //    newEmp.employeeHireDate = MyValues.GetValue(1, 11) == null ? new DateTime(1900, 01, 01) : (DateTime)MyValues.GetValue(1, 11);
+            //    newEmp.companyCompany = MyValues.GetValue(1, 12) == null ? "" : MyValues.GetValue(1, 12).ToString();
+            //    newEmp.employeePayrollStatus = MyValues.GetValue(1, 13) == null ? "" : MyValues.GetValue(1, 13).ToString();
+            //    newEmp.employeePaymentType = MyValues.GetValue(1, 14) == null ? "" : MyValues.GetValue(1, 14).ToString();
+            //    newEmp.employeeRate = MyValues.GetValue(1, 15) == null ? 0 : Convert.ToDouble(MyValues.GetValue(1, 15).ToString());
+            //    newEmp.employeeSalaryPerPay = MyValues.GetValue(1, 16) == null ? 0 : (double)MyValues.GetValue(1, 16);
+            //    newEmp.employeeStandardHours = MyValues.GetValue(1, 17) == null ? 0 : (double)MyValues.GetValue(1, 17);
 
 
 
-                allEmp1.Add(newEmp);
+            //    allEmp1.Add(newEmp);
             }
 
             Application.EnableVisualStyles();
