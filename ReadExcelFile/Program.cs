@@ -23,7 +23,7 @@ namespace ReadExcelFile
             Microsoft.Office.Interop.Excel.Application xlApp;
             Microsoft.Office.Interop.Excel.Workbook xlWorkBook;
             Microsoft.Office.Interop.Excel.Worksheet xlWorkSheet;
-            Microsoft.Office.Interop.Excel.Range range;
+            Microsoft.Office.Interop.Excel.Range range2;
 
             xlApp = new Microsoft.Office.Interop.Excel.Application();
             xlWorkBook = xlApp.Workbooks.Open(@"C:\Test\test.xls", 0, true, 5, "", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
